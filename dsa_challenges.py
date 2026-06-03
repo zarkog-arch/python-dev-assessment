@@ -1,6 +1,6 @@
 def filter_and_sort_evens(numbers):
     evens = [num for num in numbers if num % 2 == 0]
-             return sorted(evens)
+    return sorted(evens)
 
 
 
@@ -11,7 +11,7 @@ def count_character_frequency(text):
               return frequency
 
 
-if __name__ == _main_
+if __name__ == __main__
     sample_numbers = [3, 1, 4, 7, 1, 5, 9, 2, 6, 8]
     sorted_evens = filter_and_sort_evens(semple_numbers)
     print(f"Original list: {sample_numbers}")
